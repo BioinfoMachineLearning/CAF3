@@ -132,3 +132,30 @@ These script will run all the required steps to run AlphaFold3 with custom input
         ```
 
   - outputs/ : path where the AlphaFold3 predictions will be saved. 
+
+
+  ## Citing This Work
+
+If you find this work useful, please cite: 
+
+<!-- Neupane, P., Liu, J., & Cheng, J. (2026). Improving AlphaFold3 by Engineering MSA and Template Inputs. bioRxiv, 2026-01 () -->
+
+<!-- ```bibtex
+@article {Liu2025.01.12.632663,
+	author = {Liu, Jian and Neupane, Pawan and Cheng, Jianlin},
+	title = {Accurate Prediction of Protein Complex Stoichiometry by Integrating AlphaFold3 and Template Information},
+	elocation-id = {2025.01.12.632663},
+	year = {2025},
+	doi = {10.1101/2025.01.12.632663},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/10.1101/2025.01.12.632663v3},
+	journal = {bioRxiv}
+}
+``` -->
+
+```bibtex
+@article {Neupane2026Improving,
+	author = {Neupane, Pawan and Liu, Jian and Cheng, Jianlin},
+	title = {Improving AlphaFold3 by Engineering MSA and Template Inputs},
+}
+```
