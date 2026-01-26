@@ -4,6 +4,12 @@ Engineering Multiple Sequence Alignments and Templates to Improve AlphaFold3 for
 ## The pipeline of CAF3
 ![Program workflow](images/pipeline.png)
 
+## Data Repository 
+The datasets in CAF3 can be downloaded from here: 
+
+
+DOI : https://doi.org/10.7910/DVN/75SZ1U
+
 # Installation and Configuration
 
 ## The CAF3 installation requires four steps:
