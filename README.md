@@ -5,10 +5,10 @@ Engineering Multiple Sequence Alignments and Templates to Improve AlphaFold3 for
 ![Program workflow](images/pipeline.png)
 
 ## Data Repository 
-The datasets used in CAF3 can be downloaded from here: 
+The datasets used in CAF3 can be downloaded from Harvard Dataverse using following link: 
 
+https://doi.org/10.7910/DVN/KGWHRE
 
-DOI :
 
 # Installation and Configuration
 
