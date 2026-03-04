@@ -101,16 +101,6 @@ cd monomer
 python run_monomer.py --input_fasta /path/to/T1207.fasta --target_workdir /path/to/multicom4_outputs/T1207/ --num_models 20 --output_path /path/to/outputs/
 ```
 
-## Multimer example:
-
-```bash
-
-cd multimer
-
-python run_multimer.py --input_fasta /path/to/H1202.fasta --target_workdir /path/to/multicom4_outputs/H1202/ --num_models 20 --output_path /path/to/outputs/
-
-```
-
 These script will run all the required steps to run AlphaFold3 with custom inputs. The output folder will have following information:
   - input_files/ : it contains all the information (MSA + template) needed to form the json files which is required by AlphaFold3. 
        
@@ -119,6 +109,10 @@ These script will run all the required steps to run AlphaFold3 with custom input
             - msas/
                 - default_seq_temp_alignments.a3m
             - templates/
+    			- templates/
+    				- template1.cif
+    				- template2.cif
+    				- .....
                 - default_seq_temp_templates.csv
             - default_seq_temp.json
 
@@ -139,6 +133,16 @@ These script will run all the required steps to run AlphaFold3 with custom input
         ```
 
   - outputs/ : path where the AlphaFold3 predictions will be saved. 
+
+## Multimer example:
+
+```bash
+
+cd multimer
+
+python run_multimer.py --input_fasta /path/to/H1202.fasta --target_workdir /path/to/multicom4_outputs/H1202/ --num_models 20 --output_path /path/to/outputs/
+
+```
 
 
   ## Citing This Work
